@@ -1,0 +1,396 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+body{
+	font-family: 'Roboto', sans-serif;
+	color: #000;
+}
+/*banner */
+.title-header {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 45px;
+    text-shadow: 1px 2px 10px #5a5353;
+    text-transform: uppercase;
+}
+.header-text{
+    background-image: url(../images/top-header.jpg);
+    padding-top: 10em;
+    padding-bottom: 10em;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 570px;
+}
+.header-text p {
+    font-size: 25px;
+    line-height: 30px;
+    text-shadow: 1px 1px 9px #000;
+}
+.btn-tell-us {
+    color: #fff;
+    border-radius: 25px;
+    font-size: 14px;
+    margin-top: 39px;
+    font-weight: 500;
+    border-color: #fff;
+    text-shadow: 1px 1px 9px #000;
+    transition: all .5s;
+}
+/*banner end*/
+/*automation Process*/
+.automation_process {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.automation_process h6 {
+    color: #023d79;
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: 700;
+}
+/*automation Process end*/
+
+/*automation steps*/
+section.automation_steps {
+    background-color: #f1f2f2;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.automation_process1 img, .automation_process2 img, .automation_process3 img, .automation_process4 img{
+     height: 40px;
+    margin: 0 auto;
+    display: block;
+    /* margin-top: 13px; */
+    margin-bottom: 10px;
+}
+.automation_process1 h6, .automation_process2 h6, .automation_process3 h6, .automation_process4 h6 {
+    /* padding-left: 75px; */
+    text-align: center;
+    color: #fff;
+    padding-top: 10px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 15px;
+}
+.automation_process1 p, .automation_process2 p, .automation_process3 p, .automation_process4 p {
+    text-align: left;
+    color: #fff;
+    padding-left: 67px;
+    padding-right: 40px;
+    font-size: 14px;
+}
+/*automation steps end*/
+.automation_process1 {
+        background-image: url(../images/red.png);
+    min-height: 260px;
+    background-repeat: no-repeat;
+    background-size: cover;
+       padding-top: 30px;
+   
+}
+.automation_process2 {
+    background-image: url(../images/second-img.png);
+    min-height: 260px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 30px;
+}
+.automation_process3 {
+    background-image: url(../images/third-img.png);
+    min-height: 260px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 30px;
+}
+.automation_process4 {
+    background-image: url(../images/fourth-img.png);
+    min-height: 260px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 30px;
+}
+/*parternes*/
+.partners {
+    background-color: #000000;
+      padding-top: 30px;
+    padding-bottom: 30px;
+}
+.partners p {
+    color: #fff;
+    font-size: 25px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 700;
+}
+span.img-1 img, span.img-2 img {
+    height: 40px;
+}
+span.img-1, span.img-2 {
+    background-color: #fff;
+    /* overflow: hidden; */
+    padding: 20px;
+    border-radius: 10px;
+    transition: all .5s;
+    border: 3px solid transparent;
+}
+.ui-img .img-1 {
+    margin-right: 20px;
+    transition: all .5s;
+}
+.text-center.ui-img {
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+.ui-img .img-1:hover, .ui-img .img-2:hover {
+    box-shadow: 0px 3px 9px #023d79b5;
+    border: 3px solid #023d79;
+}
+.ui-img .img-1 {
+    margin-right: 20px;
+    transition: all .5s;
+    border: 3px solid transparent;
+}
+/*partners*/
+.relate-projct {
+    background-color: #000;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+/*successful automation*/
+.successfull-auto {
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+.successfull-auto h5 {
+    font-size: 30px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+/*successful automation end*/
+
+/*expertise*/
+.expertise {
+    background-color: #f1f2f2;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+section.expertise h5 {
+    font-size: 30px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+.expertise img:hover {
+    box-shadow: 3px 3px 10px #797979;
+    border-radius: 60%;
+}
+.expertise img {
+    height: 100px;
+    transition: all .5s;
+}
+.successfull-auto img{
+ transition: all .5s;
+ border-radius: 60%;	
+}
+.successfull-auto img:hover {
+    box-shadow: 1px 3px 20px #909090;
+    border-radius: 60%;
+    transform: scale(1.06);
+}
+p.process-detail {
+    margin-top: 10px;
+    font-size: 15px;
+    color: #000;
+    font-weight: 400;
+}
+section.testimonials {
+    background-color: #e4bf05;
+    padding-top: 50px;
+    padding-bottom: 40px;
+    position: relative;
+}
+.testimonials .carousel-item {
+    border-bottom: none;
+}
+p.user-content {
+    font-size: 15px;
+    padding-right: 50px;
+}
+.test-content {
+    width: 70%;
+    margin: 0 auto;
+    border: 1px solid #fff;
+    padding: 20px;
+    border-radius: 8px;
+}
+p.namr {
+    color: #023d79;
+    font-weight: 700;
+    margin-bottom: 0px;
+    margin-top: 30px;
+}
+p.positin {
+    margin-bottom: 0px;
+    font-size: 15px;
+}
+.bg-dot {
+    position: absolute;
+    right: 0px;
+    top: -60px;
+}
+.bg-dot img {
+    height: 338px;
+    width: 488px;
+}
+section.relate-projct h5 {
+    text-align: center;
+    color: #fff;
+    font-size: 30px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 700;
+    padding-top: 20px;
+    padding-bottom: 8px;
+}
+/*expertise*/
+.carousel-caption {
+    position: absolute;
+    right: 0%;
+    bottom: 0px;
+    left: 0%;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+    text-align: center;
+    background-color: #000000ba;
+}
+.related-project .carousel-control-prev-icon {
+    background-image: url(../images/left-arrow.png);
+    height: 30px;
+    width: 18px;
+}
+.related-project .carousel-control-next-icon {
+    background-image: url(../images/right-arrow.png);
+     height: 30px;
+    width: 18px;
+}
+h5.market-title {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    padding-top: 6px;
+}
+.btn-market {
+    color: #fff;
+    text-transform: uppercase;
+    padding: 7px 25px;
+    border-radius: 25px;
+    border-color: #fff;
+    font-size: 14px;
+    margin-top: 15px;
+    font-weight: 500;
+}
+.forms {
+   background-color: #023d79;
+    padding-top: 25px;
+    padding-bottom: 40px;
+    position: relative;
+    overflow: hidden;
+}
+.left-dot {
+    position: absolute;
+    bottom: -53px;
+}
+.left-dot img {
+    height: 539px;
+}
+h6.conct {
+       color: #fff;
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
+#my-file { visibility: hidden; }
+.form-control {
+    display: block;
+    width: 100%;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid #ced4da;
+    border-radius: 0px;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    margin-bottom: 25px;
+}
+.carousel-item{
+	border-bottom: 50px solid #000;
+}
+button.btn.btn-outline.btn-attach {
+    background-color: transparent;
+    border-color: #fff;
+    padding: 6px 30px;
+    border-radius: 25px;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 14px;
+     transition: all .5s;
+     font-weight: 700;
+}
+button.btn.btn-outline.btn-attach:hover {
+    background-color: #fff;
+    color: #023d79;
+}
+button.btn.btn-warning.btn-submit {
+    font-weight: 700;
+    padding: 6px 40px;
+    border-radius: 25px;
+    font-size: 14px;
+     transition: all .5s;
+}
+@media screen and (min-width: 1023px){
+	.automation_process p {
+    padding: 10px;
+    padding-right: 120px;
+}
+.p-r-sm-40 {
+    padding-right: 25px;
+}
+.p-l-sm-40 {
+    padding-left: 25px;
+}
+button.btn.btn-outline.btn-attach{
+	float: right;
+}
+}
+@media screen  and (max-width: 767px){
+	.ui-img .img-1 {
+    margin-right: 20px;
+    display: block;
+    width: 70%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+.ui-img .img-2{
+	   margin-right: 20px;
+    display: block;
+    width: 70%;
+    margin: 0 auto;
+}
+.successfull-auto h5 {
+    font-size: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+}
